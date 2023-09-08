@@ -1,0 +1,545 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+  
+    background-color:black;
+    color:white;
+    
+}
+
+
+
+  nav   {
+    
+    
+    
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+    padding:0.5rem 3rem;
+   
+}
+
+.menu i{
+    font-size: 2rem;
+}
+
+.left 
+{
+    display: flex;
+    gap:1rem;
+    align-items: center;
+}
+.left h5{
+
+}
+.right
+{
+    display: flex;
+    gap:1rem;
+    //align-items: center;
+
+}
+
+.login{
+    align-self: center;
+    border:none;
+    background-color: red;
+    color:white;
+    padding: 0.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+
+
+
+
+
+}
+
+.delivery{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    gap:0.6rem;
+    background-color:#1C1816;
+    padding:0.1 0.4;
+    border-radius: 5px;
+    border:2px solid red;
+
+
+}
+
+.pickup{
+    display:flex;
+    align-items: center;
+    text-transform: uppercase;
+    background-color:#1C1816;
+    padding:0.1 0.4;
+    border-radius: 5px;
+}
+
+
+
+
+.menu i{
+    font-size: 2rem;
+}
+.bucket{
+    position:relative;
+    color:black;
+}
+.quantity{
+    position: absolute;
+    left:50% ;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.front-page{
+    background-image:url('https://www.kfcpakistan.com/images/44752b10-3743-11ee-9ed8-8f76828af5c3-Web1_desktop_image-2023-08-10060054.jpg');
+   // background-color:red;
+
+    height: 70vh;
+    background-size: cover;
+    
+
+}
+
+
+
+
+.reorder{
+    background: red;
+    display:flex;
+    width:50%;
+    height: 10%;
+    margin:20px auto;
+    justify-content: center;
+    padding:0.5rem;
+    border-radius:5px;
+    color:white;
+    border:none;
+    text-transform: uppercase;
+    font-weight:bolder;
+
+
+ }
+ 
+ .explore{
+   width:90%;
+   margin:auto;
+   //.delivery:0.5rem;
+   //.front-page:1rem;
+
+ }
+
+ h2{
+    text-transform: uppercase;
+    color:white;
+ }
+ 
+ hr{
+    width: 10%;
+    background-color:#EA002A ;
+    height: 3px;
+    margin-top: 0.6rem;
+    border: none;
+}
+
+.items{
+    margin-top:1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:1rem;
+
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: #1C1816;; //#1C1816;
+    border-radius: 50% 50% 5px 50%;
+    padding:1rem;
+    position: relative;
+    cursor:pointer;
+    transition:all 1s;
+
+
+    
+}
+
+.card:hover{
+    transform: translateY(-30px);
+}
+
+.card hr{
+    width: 30%;
+    background-color:#EA002A ;
+    height: 5px;
+    margin-top: 0.6rem;
+    border: none;
+
+}
+.dot{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    right: 10px;
+    background-color: black;
+    bottom: 10px;
+
+
+}
+
+.bestseller{
+   width:90%;
+   margin:auto;
+}
+.selleritem{
+    margin-top: 2rem;
+    display: flex;
+    justify-content:space-between;
+    gap:1rem;
+    margin-bottom: 2rem;
+    
+
+}
+
+.sellercard{
+   display:flex;
+    flex-direction: column;
+   //justify-content: center;
+   //align-self: center;
+    width:300px;
+    height:350px;
+   gap:1rem;
+   background-color:#1C1816;
+  // position: relative;
+
+
+}
+
+.topbar{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    gap:0.5rem;
+    //margin-bottom: 1rem;
+}
+.redbox{
+    width:15px;
+    height: 20px;
+    background: #EA002A;
+}
+
+.sellercard h3{
+    font-weight: bold;
+    font-size: 23px;
+    margin-left: 5px;
+  
+}
+
+.pricetag{
+   // clip-path: polygon(100% 36%, 100% 50%, 100% 65%, 0 65%, 28% 51%, 0 36%);
+   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 99%, 23% 51%);
+    background-color: #EA002A;
+  // padding: 2rem;
+    width: 100px;
+    height:25px;
+    text-align: right;
+     margin-left: auto;
+     
+   // margin-top:0px;
+   padding-top:5px;
+   padding-right: 3px;
+}
+
+.pricetag h5{
+    margin: auto;
+    padding:0;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+
+.selleritem img{
+    margin-top:0;
+    padding:0;
+    //border: 2px solid;
+   // height: 30%;
+
+}
+
+.saprator hr{
+    background-color:grey;
+    width: 90%;
+    margin:auto;
+    height: 5px;
+
+
+}
+
+.topdeals{
+   width:90%;
+   margin:auto;
+}
+
+.deals{
+    margin-top: 2rem;
+    display: flex;
+    justify-content:space-between;
+    gap:1rem;
+    margin-bottom: 2rem;
+
+
+}
+
+.dealscard{
+
+    display:flex;
+    flex-direction: column;
+   
+    width:300px;
+    height:470px;
+    gap:1rem;
+    background-color:#1C1816;
+    position: relative;
+    border-radius: 5px;
+
+}
+.likelogo{
+  //  background-color: blue;
+    position:absolute;
+    width: 24px; /* pathのサイズ */
+	height: 24px; /* pathのサイズ */
+	background: #FF5252; /* 色 */
+	clip-path: path("M12 21.593c-5.63-5.539-11-10.297-11-14.402 0-3.791 3.068-5.191 5.281-5.191 1.312 0 4.151.501 5.719 4.457 1.59-3.968 4.464-4.447 5.726-4.447 2.54 0 5.274 1.621 5.274 5.181 0 4.069-5.136 8.625-11 14.402m5.726-20.583c-2.203 0-4.446 1.042-5.726 3.238-1.285-2.206-3.522-3.248-5.719-3.248-3.183 0-6.281 2.187-6.281 6.191 0 4.661 5.571 9.429 12 15.809 6.43-6.38 12-11.148 12-15.809 0-4.011-3.095-6.181-6.274-6.181");
+	//transform: scale(5);
+
+  // border:solid;
+   //border-color:red;
+  // border-width: 5pxpx;
+
+
+
+
+    top:20px;
+    right: 10px;
+
+}
+
+.dealscard img{
+   // background-color: aliceblue;
+    margin-top: 0;
+    padding: 0;
+    height: 80%;
+}
+
+.addcart{
+    background: red;
+    //display:flex;
+    width:50%;
+    height: 10%;
+    margin:0px auto;
+    //.front-page:: center;
+    padding:0.5rem;
+    border-radius:5px;
+    color:white;
+    border:none;
+    text-transform: uppercase;
+    font-weight:bolder;
+
+}
+
+.banners{
+    width:90%;
+    margin:auto;
+    margin-top: 2rem;
+    display: flex;
+    //justify-content:space-between;
+  //  justify-self: auto;
+    gap:30px;
+    
+    margin-bottom: 2rem;
+}
+
+.banners img{
+    margin-left: 0;
+    padding: 0;
+    border-radius: 5px;
+    border-width: 10px;
+}
+
+.kfcbasket{
+   width:49%;
+   background:#1C1816;
+   padding: 1rem;
+   display:flex;
+   
+   flex-direction:column;
+   align-items:center;
+  // justify-content:center;
+   //gap:1rem;
+   border-radius: 5px;
+
+}
+
+.exploremenu{
+
+    background: red;
+    width:50%;
+    height: 15%;
+    padding:0.5rem;
+    border-radius:5px;
+    color:white;
+    border:none;
+    text-transform: uppercase;
+    font-weight:bolder;
+}
+
+.footercontainer{
+    width:100%;
+   // height: 100px;
+    background: #1C1816;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    align-items:center;
+    justify-content:space-around;
+    margin-bottom:2rem;
+
+}
+
+.footer{
+    //background: #EA002A;
+    width: 30%;
+   // height: 30px;
+}
+
+.footerchild1{
+    display: flex;
+    justify-content: space-between;
+    gap:3rem;
+    align-items: center;flex-start;
+    padding-top: 2rem;
+}
+.socialink{
+    display:flex;
+    gap:1rem;
+    justify-content: space-between;
+    //background: blue;
+
+
+}
+
+.roundlink{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    position: relative;
+}
+
+.roundlink img{
+    //width: 30px;
+   // height: 18px;
+    position:absolute;
+    left:50% ;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.footerchild2{
+    display:flex;
+    justify-content: space-around;
+    gap:5rem;
+  //  background: blue;
+    width:90%;
+}
+
+.footerchild2 h3{
+    font-weight: normal;
+}
+
+
+.menufooter1{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+.menufooter2{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    align-items:flex-start;
+}
+.menufooter3{
+    display: flex;
+    flex-direction: column;
+   // gap:1rem;
+    align-items:flex-start;
+}
+.storelinks{
+    display: flex;
+   // background: blue;
+    flex-direction: column;
+ //  margin-top:0;
+  //  padding-top: 0;
+    
+  align-items:flex-start;
+  //  justify-content: center;
+    gap:1rem;
+
+}
+.storelinks img{
+    border:solid;
+   border-width:1px;
+   // margin-top:0;
+    border-color:white;
+    border-radius: 5px;
+   // background-color:black;
+}
+
+.footerchild3{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    gap:10rem;
+   // background: blue;
+}
+
+.footerchild3 h4{
+    font-weight: normal;
+    font-size: 18px;
+}
+.rightbottom h4{
+  color:#EA002A;
+  font-weight: bold;
+}
+.rightbottom h5{
+    color:#FFFFFF;
+    font-size: 15px;
+   // font-weight: bold;
+   text-decoration: underline;
+
+  }
+
+
+
+
+
+
+    
+    
+ 
